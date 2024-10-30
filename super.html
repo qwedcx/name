@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lolik site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Биография Джеймса Гослинга</h1>
+        <img src="img/bank2.svg" alt="logotipee" width="33px">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">О сайте</a> 
+                </li>
+                <li>
+                    <a href="#articles">Мои статьи</a> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="articles" id="articles">
+            <h2>Содержание</h2>
+            <ol start="1">
+                <li>
+                    <a href="index.html" target="_blank">Джеймс Гослинг</a>
+                </li>
+                <li>
+                    <a href="">Джон фон Нейман</a>
+                </li>
+                <li>
+                    <a href="clod/clod0.html" target="_blank">Клод Шеннон</a>
+                </li>
+                <li>
+                    <a href="">Соломон Хайкс</a>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <table border=1>
+                <caption>Заголовок</caption>
+                <thead>
+                <tr><th>Пункт 1</th><th>Пункт 2</th><th>Пункт 3</th><th>Пункт 4</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>1</td> <td>2</td><td>3</td><td>4</td></tr>
+                <tr><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+                <tr><td>9</td> <td>10</td><td colspan="2">12</td></tr>
+                <tr><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+                <tr><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+                </tbody>
+                </table>
+        </section>
+        <section>
+            <label for="select">Тема</label>
+            <select id="select">
+                <option value="">Выберите...</option>
+                <optgroup label="Option group 1">
+                    <option value="">Заказать услугу</option>
+                    …
+                </optgroup>
+                <optgroup label="Option group 2">
+                    <option value="">Другое</option>
+                   …
+                </optgroup>
+            <label for="input">Имя</label>
+            <input type="text" id="input"  placeholder="Имя" required>
+            <input type="text" id="input" placeholder="Почта" required><br>
+            <label for="textarea">
+                Текст для отправки
+            </label> <br>
+            <textarea id="textarea" rows="3"></textarea>
+            
+            <p>
+                <input type="submit" value="Отправть"/>
+            </p>
+            
+
+                    
+            </select>            
+        </section>
+    </main>
+    <footer>
+        <p>© Давтян Овик, 2024</p>
+        <p>Вы также можете найти меня <a href="https://ru.wikipedia.org/">здесь</a></p>
+        <a href="tel:+7 777 777 77 77">+7 777 777 77 77</a>
+        <a href="mailto:makdak@gmail.com">makdak@gmail.com</a>
+    </footer>
+</body>
+</html>
